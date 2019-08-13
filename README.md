@@ -14,7 +14,7 @@ REST API for money transfers between accounts.
 | Method | URI | Description |
 | :---: | :---: | :---: |
 | GET | /accounts/[id] | Retrieve account by id |
-| POST | /accounts | Create account |
+| POST | /accounts | Create account | {	"id":<Unique-customer-id>,"balance":100.0}
 | DELETE | /accounts/[id] | Delete account |
  
  ##### Transaction
@@ -38,7 +38,6 @@ To run:
 ```
 ./gradlew run
 ```
-## Request response curl-
  
 
 ### Notes
