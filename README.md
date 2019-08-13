@@ -38,6 +38,8 @@ To run:
 ```
 ./gradlew run
 ```
+## Request response curl-
+ 
 
 ### Notes
 Please change `server.address` property in `application.properties` file to bootstrap the application on the different port if the default one is occupied.# money-transfer
