@@ -21,7 +21,7 @@ REST API for money transfers between accounts.
 | Method | URI | Description | Request
 | :---: | :---: | :---: | :---: | 
 | GET | /transactions/[id] | Retrieve transaction by id | 
-| POST | /transactions | Create transaction and do money transfer |{"id":<unique transaction id>,"srcAccountId":<source_account_id>,"targetAccountId":<targetaccountid> "amount":<amount>}
+| POST | /transactions | Create transaction and do money transfer |{"id":<unique transaction id>,"srcAccountId":<source_account_id>,"targetAccountId":<target_account_id> "amount":<amount_decimal> }
 | DELETE | /transactions/[id] | Delete transaction|
  
  
