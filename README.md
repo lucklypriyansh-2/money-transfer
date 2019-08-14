@@ -14,14 +14,14 @@ REST API for money transfers between accounts.
 | Method | URI | Description | Request
 | :---: | :---: | :---: | :---: |
 | GET | /accounts/[id] | Retrieve account by id |
-| POST | /accounts | Create account | {	"id":<Unique-customer-id>,"balance":100.0}
+| POST | /accounts | Create account | {	"id": <Unique-customer-id> ,"balance":100.0}
 | DELETE | /accounts/[id] | Delete account |
  
  ##### Transaction
 | Method | URI | Description | Request
 | :---: | :---: | :---: | :---: | 
 | GET | /transactions/[id] | Retrieve transaction by id | 
-| POST | /transactions | Create transaction and do money transfer |{	"id":<Unique-customer-id>,"balance":100.0}
+| POST | /transactions | Create transaction and do money transfer |{"id":<unique transaction id>,"srcAccountId":<source_account_id>,"targetAccountId":<targetaccountid> "amount":<amount>}
 | DELETE | /transactions/[id] | Delete transaction|
  
  
