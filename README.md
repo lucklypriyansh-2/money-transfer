@@ -5,6 +5,7 @@ REST API for money transfers between accounts.
  - using akka-actor to ensure thread safety (without need of blocking), responsiveness, resilience and elasticity
  - using akka-http as HTTP "framework" which is built on top of akka-actor
  - storing actor refs in-memory
+ - Akka can handle millions of transactions and is easily scalable for money transfer,It ensures thread saftey at any cost 
  - possibility to deploy actors across different jvm instances
  - possibility to persist actors in NoSQL databases (e.g. Redis)
 
